@@ -305,29 +305,29 @@ section .button button:hover{
 }
 
 /* My Services CSS */
-.services .boxes{
+.mywork .boxes{
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
 }
-.services .services-details{
+.mywork .mywork-details{
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-.services .services-details .left{
+.mywork .mywork-details .left{
   width: 45%;
 }
-.services .left img{
+.mywork .left img{
   height: 80%;
   width: 80%;
   object-fit: cover;
   border-radius: 12px;
 }
-.services-details .right{
+.mywork-details .right{
   width: 55%;
 }
-.services .boxes .box{
+.mywork .boxes .box{
   margin: 20px 0;
   width: calc(100% / 3 - 20px);
   text-align: center;
@@ -337,11 +337,11 @@ section .button button:hover{
   cursor: default;
   transition: all 0.4s ease;
 }
-.services .boxes .box:hover{
+.mywork .boxes .box:hover{
   background: #4070f4;
   color: #fff;
 }
-.services .boxes .box .icon{
+.mywork .boxes .box .icon{
   height: 50px;
   width: 50px;
   background: #4070f4;
@@ -357,13 +357,13 @@ section .button button:hover{
   background-color: #fff;
   color: #4070f4;
 }
-.services .boxes .box:hover .topic,
-.services .boxes .box:hover p{
+.mywork .boxes .box:hover .topic,
+.mywork .boxes .box:hover p{
   color: #0E2431;
   transition: all 0.4s ease;
 }
-.services .boxes .box:hover .topic,
-.services .boxes .box:hover p{
+.mywork .boxes .box:hover .topic,
+.mywork .boxes .box:hover p{
   color: #fff;
 }
 /* Contact Me CSS */
@@ -433,7 +433,7 @@ footer .text span a:hover{
     width: 90%;
     margin: 40px 0;
   }
-  .services .boxes .box{
+  .mywork .boxes .box{
     margin: 20px 0;
     width: calc(100% / 2 - 20px);
   }
@@ -501,7 +501,7 @@ footer .text span a:hover{
     align-items: center;
     width: 100%;
   }
-  .services .boxes .box{
+  .mywork .boxes .box{
     margin: 20px 0;
     width: 100%;
   }
